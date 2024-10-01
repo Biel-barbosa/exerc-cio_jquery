@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #e2dede;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+h1 {
+    font-size: 28px;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+input , button{
+    padding: 18px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 22px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.finalizado {
+    text-decoration: line-through;
+}
+
+
